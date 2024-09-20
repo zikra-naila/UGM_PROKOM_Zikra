@@ -1,0 +1,15 @@
+# nilai = set({3,6,9,2,5,7})
+# Buatlah program untuk menambahkan dan menghapus elemen baru
+
+A = {3, 6, 9, 2, 5, 7}
+B = {1, 4, 8, 10}
+# menabahkan nilai
+
+A.update({1,4,8,10})
+print(A)
+
+A = set([3, 6, 9, 2, 5, 7])
+A.difference_update({3, 5, 7})
+# menghapuskan nilai 
+
+print(A)
