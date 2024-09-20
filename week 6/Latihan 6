@@ -1,0 +1,16 @@
+# Diketahui 3 data set sebagai berikut :
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e' }
+C = set{()}
+#set ditambahkan agar c dapat mengetahui bahwa set tersebut kosong
+
+#Buatlah program untuk menampilkan hasil :
+# A difference B
+# B difference A
+# A difference C
+# B difference C
+
+print(A ^ B)
+print(B ^ A)
+print(A ^ C)
+print(B ^ C)
