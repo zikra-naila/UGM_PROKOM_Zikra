@@ -1,0 +1,7 @@
+# Diketahui suatu data set sebagai berikut : nilai = set({3,6,9,2,5,7})
+# nilai = set ({1,2,3,4,5,6,7,8,9,10})
+
+A = {3,6,9,2,5,7}
+B = {1,4,8,10}
+
+print(A|B)
