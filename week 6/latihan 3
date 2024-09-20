@@ -1,0 +1,15 @@
+# Diketahui 4 data set sebagai berikut :
+
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+# Buatlah program untuk menampilkan hasil :
+#b. B∩D
+#c. C∩D
+#d. A∩B∩C∩D
+
+print(B&D)
+print(C&D)
+print(A&B&C&D)
