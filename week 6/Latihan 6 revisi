@@ -1,1 +1,16 @@
+# Diketahui 3 data set sebagai berikut :
+A = {'a', 'b', 'c', 'd'}
+B = {'c', 'd', 'e' }
+C = { }
+#set ditambahkan agar c dapat mengetahui bahwa set tersebut kosong
 
+#Buatlah program untuk menampilkan hasil :
+# A difference B
+# B difference A
+# A difference C
+# B difference C
+
+print(A.difference(B))
+print(B.difference(A)) 
+print(A.difference(C))
+print(B.difference(C))
