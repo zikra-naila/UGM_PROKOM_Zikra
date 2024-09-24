@@ -1,8 +1,8 @@
-mahasiswa = {
- 'nama': 'Wahid Abdullah',
- 'usia': 18,
- 'asal': 'Indonesia'
-}
-del mahasiswa['nama']
-mahasiswa.pop('usia')
-mahasiswa.pop('asal')
+student = {
+ "nama" : "faqih",
+ "umur" : 26,
+ "tinggi" : 177.6
+ }
+ print(student)
+ student.pop("umur")
+ print(student)
