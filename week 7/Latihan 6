@@ -1,8 +1,12 @@
 # Menghapus Elemen Dictionary Python
 
-dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
-del dict['Name'] # hapus entri dengan key 'Name'
-dict.clear() 
-del dict 
-print ("dict['Age']: ", dict['Age'])
-print ("dict['School']: ", dict['School'])
+dict_data = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+del dict_data ['Name'] # hapus entri dengan key 'Name'
+
+dict_data.clear() # Menghapus semua entri dari dictionary
+
+del dict_data # Menghapus dictionary itu sendiri
+
+# Mencoba mengakses nilai setelah penghapusan
+print ("dict['Age']: ", dict_data['Age'])
+print ("dict['School']: ", dict_data['School'])
